@@ -24,4 +24,4 @@ iii)Returns the Odia translation with appropriate grammatical modification
 iv)Marks unknown words as [unknown: word]
 
 
-Here I use basic programing knowledge in python to developthe application.
+Here I use basic programing knowledge in python to develop the application.
