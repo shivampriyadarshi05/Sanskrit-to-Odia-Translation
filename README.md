@@ -11,9 +11,9 @@ Takes a sentence as input, strips punctuation characters (।, ,, ., !, ?) using
 3. Grammar Handling (check_grammar)
 Inspects the ending of each word to detect its grammatical form:
 
-i)Words ending in एं or ओं → Plural (बहुवचन)
-ii)Words ending in ति → Verb (क्रिया)
-iii)All other words → Normal
+(i)Words ending in एं or ओं → Plural (बहुवचन)
+(ii)Words ending in ति → Verb (क्रिया)
+(iii)All other words → Normal
 
 4. Translation Logic (translate)
 For each word:
