@@ -22,24 +22,3 @@ i)Applies grammar rules to determine base form and any suffix to append.
 ii)Looks up the base word in the dictionary.
 iii)Returns the Odia translation with appropriate grammatical modification.
 iv)Marks unknown words as [unknown: word]
-
-
-# How Programe is Executed
-
-User Input
-   |
-   ▼
-prase_input()      -> splits into word list
-   |
-   ▼
-translate()        -> loops through each word
-   |
-   |-- grammar check (endswith rules)
-   |
-   |-- dictionary lookup
-              |
-              ▼
-     results list of (word, grammar, odia)
-              |
-              ▼
-Displayed as full sentence + word-by-word table
