@@ -2,6 +2,21 @@
 
 A command-line Python application that translates Sanskrit and Hindi words and sentences into Odia. The tool also performs basic grammatical analysis — identifying plurals, verbs, and normal words — and displays results word by word with their grammatical category.
 
+# Features
+
+Translates Sanskrit and Hindi words into Odia script
+Handles grammatical forms:
+
+Plural nouns ending in एं or ओं → adds Odia plural suffix ମାନେ
+Verb forms ending in ति → identified and translated as verbs
+Normal/base words → direct dictionary lookup
+
+
+Displays word-by-word breakdown with grammar category and Odia meaning
+Shows full translated sentence output
+Built-in dictionary viewer (dict command)
+Interactive command-line interface with loop support
+
 # How It Works
 The project is divided into four core modules:
 1. Dictionary (dictionary)
